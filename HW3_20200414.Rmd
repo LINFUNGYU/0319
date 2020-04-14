@@ -1,0 +1,57 @@
+---
+title: "HW3_20200414"
+author: "林芳妤 106035076"
+date: "2020/4/14"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(datasets) 
+head(iris)
+```
+```{r}
+summary(iris)   
+```
+```{r}
+summary(iris$Species) 
+```
+```{r}
+summary(iris$Sepal.Length)
+```
+```{r}
+summary(iris$Petal.Length)
+```
+```{r}
+hist(iris$Sepal.Length)
+```
+```{r}
+hist(iris$Sepal.Width)
+```
+```{r}
+hist(iris$Petal.Length)
+```
+```{r}
+hist(iris$Petal.Width)
+```
+```{r}
+plot(mtcars$wt, mtcars$mpg)
+```
+```{r}
+plot(mtcars$wt, mtcars$mpg,
+     
+     pch = 19,         # Solid circle
+     
+     cex = 1.5,        # Make 150% size
+     
+     col = "#cc0000",  # Red
+     
+     main = "MPG as a Function of Weight of Cars",
+     
+     xlab = "Weight (in 1000 pounds)",
+     
+     ylab = "MPG")
+```
