@@ -171,4 +171,3 @@ head(i.setosa)
 summary(i.setosa$Petal.Length)
 
 hist(i.setosa$Petal.Length)
-
