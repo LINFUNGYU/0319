@@ -155,3 +155,4 @@ iris %>%
   filter_if(~is.numeric(.) & n_distinct(.)>30,
             
             any_vars(.< mean(.)))
+

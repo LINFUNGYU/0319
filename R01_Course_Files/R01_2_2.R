@@ -87,3 +87,4 @@ letterz
 # 
 
 iris %>% lm(Sepal.Width~Sepal.Length, .) -> my_lm
+

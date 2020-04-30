@@ -18,4 +18,3 @@ head(movies)
 ```{r}
 movies %>% select(title:votes,Action:Short)
 ```
-
