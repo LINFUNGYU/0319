@@ -1,0 +1,20 @@
+---
+title: "HW4_20200422_1"
+author: "林芳妤 106035076"
+date: "2020/4/22"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(pacman)
+p_load(ggplot2movies)
+head(movies)
+```
+
+```{r}
+movies %>% select(title:votes,Action:Short)
+```
